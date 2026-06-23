@@ -64,6 +64,41 @@ h2:hover{color:#f8a5c2}
 .card{background:#fff0f6;padding:10px;border-radius:10px;margin-bottom:8px}
 .dark-mode .card{background:#2a2a40;color:#f5f5f5}
 
+.view-project-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-top:10px;
+  color:#000;
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:2px solid #f8a5c2;
+  padding-bottom:2px;
+  transition:0.3s ease;
+}
+
+.view-project-link::after{
+  content:"↗";
+  font-size:14px;
+  transition:0.3s ease;
+}
+
+.view-project-link:hover{
+  color:#f8a5c2;
+}
+
+.view-project-link:hover::after{
+  transform:translate(3px,-3px);
+}
+
+.dark-mode .view-project-link{
+  color:#fff;
+}
+
+.dark-mode .view-project-link:hover{
+  color:#f8a5c2;
+}
+
 .contact a,.contact p{margin:4px 0;display:block;color:#111;text-decoration:none;transition:0.3s}
 .dark-mode .contact a,.dark-mode .contact p{color:#f5f5f5}
 
@@ -152,7 +187,14 @@ footer{text-align:center;padding:8px}
 Habit Harvest – Habit Tracking Website
 </a>
 </b>
-<p>Developed a habit tracking website that helps users build consistency, monitor progress, and maintain productive daily routines through an intuitive and user-friendly interface.</p>
+
+<p>
+Developed a habit tracking website that helps users build consistency, monitor progress, and maintain productive daily routines through an intuitive and user-friendly interface.
+</p>
+
+<a href="https://habit-harvest-habit-tracking-websit.vercel.app/" target="_blank" class="view-project-link">
+View Project
+</a>
 </div>
 
 <div class="card">
@@ -161,7 +203,14 @@ Habit Harvest – Habit Tracking Website
 KBC Quiz Game
 </a>
 </b>
-<p>Designed quiz application with game logic, score tracking, and audio feedback for correct/incorrect answers.</p>
+
+<p>
+Designed quiz application with game logic, score tracking, and audio feedback for correct/incorrect answers.
+</p>
+
+<a href="https://github.com/namra-24/KBC-Quiz-Game.git" target="_blank" class="view-project-link">
+View Project
+</a>
 </div>
 
 <div class="card">
@@ -170,7 +219,14 @@ KBC Quiz Game
 Student Information Management System
 </a>
 </b>
-<p>Developed application to efficiently manage student data and records.</p>
+
+<p>
+Developed application to efficiently manage student data and records.
+</p>
+
+<a href="https://github.com/namra-24/Student-Information-Management-System.git" target="_blank" class="view-project-link">
+View Project
+</a>
 </div>
 
 </section>
